@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
             quizPage.classList.remove("hidden");
             resultPage.classList.add("hidden");
         } else {
-            resultText.textContent = "انتهى الاختبار! شكرًا لمشاركتك.";
+            resultText.textContent = " “وصلنا للنهاية، لكن الفخر بالسعودية ما له نهاية! شكراً لمشاركتك، ودام عز الوطن!”";
             nextQuestionBtn.style.display = "none";
         }
     });
